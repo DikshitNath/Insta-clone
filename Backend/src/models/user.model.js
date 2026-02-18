@@ -19,7 +19,6 @@ const userSchema = new mongoose.Schema({
     profilePic: {
         type: String,
         default: 'https://ik.imagekit.io/myBlogApp/avatar-gender-neutral-silhouette-vector-600nw-2470054311.webp'
-
     }
 }, { timestamps: true });
 
